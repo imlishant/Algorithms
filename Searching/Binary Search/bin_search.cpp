@@ -19,6 +19,7 @@ int main()
 {
     int arr[] = {23, 45, 98, 93, 967, 920, 804};
     int n = sizeof(arr) / sizeof(arr[0]);
+    sort(arr, arr+n);
     cout << "Enter data :: ";
     int data;
     cin >> data;
